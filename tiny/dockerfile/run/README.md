@@ -11,6 +11,7 @@ Tiny is a base image for containers.  It is functionally equivalent to Google's 
 * base-files
 * netbase
 * tzdata
+* zlib1g
 
 ## Additional components
 

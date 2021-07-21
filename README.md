@@ -32,8 +32,8 @@ Run Images
 
 ### Base (aka "bionic")
 Ideal for:
-- Java apps and .NET Core apps
-- Go apps that require some C libraries
+- .NET Core apps
+- Java apps and Go apps that require some C libraries
 - Node.js/Python/Ruby/etc. apps **without** many native extensions
 
 Contains:
@@ -51,7 +51,7 @@ Contains:
 ### Tiny
 Ideal for:
 - Most Go apps
-- Java [GraalVM Native Images](https://www.graalvm.org/docs/reference-manual/native-image/)
+- Java apps and Java [GraalVM Native Images](https://www.graalvm.org/docs/reference-manual/native-image/)
 
 Contains:
 - Build: ubuntu:bionic + openssl + CA certs + compilers + shell utilities

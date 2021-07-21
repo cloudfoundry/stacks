@@ -5,3 +5,4 @@ libssl1.1
 netbase
 openssl
 tzdata
+zlib1g
